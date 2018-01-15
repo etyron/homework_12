@@ -25,7 +25,10 @@ var config = {
         './node_modules/jquery/dist/jquery.min.js',
         './node_modules/popper.js/dist/popper.min.js',
         './node_modules/bootstrap/dist/js/bootstrap.min.js',
-        './src/js/*.js'
+		'js/jquery.mCustomScrollbar.concat.min.js',
+        './src/js/*.js',
+		'../node_modules/slick-carousel/slick/slick.min.js',
+		'../node_modules/masonry-layout/dist/masonry.pkgd.min.js'
       ],
       'dest': './dist/js'
     },
